@@ -1,0 +1,26 @@
+{
+    "name": "siddiqur/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "siddiqur-54",
+            "email": "siddiqur.cse.ruet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Siddiqur\\Contact\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Siddiqur\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
